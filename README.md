@@ -88,6 +88,21 @@ The automated engine compiles and outputs 5 structural reporting assets:
 - Controversy count and governance vulnerability analysis.
 - Elasticity trends for high-visibility risk events.
 
+## ⚠️ 6. Methodology Limitations & Boundary Conditions
+
+While this framework provides a highly rigorous, statistically backed quantitative assessment pipeline, deploying algorithmic models to evaluate real-world ESG exposure presents distinct integration limits that must be noted:
+
+### 1. The Synthetic Data Uniformity Illusion
+* **Limitation:** This pipeline processes a complete, perfectly structured matrix of variables with zero missing values. 
+* **Real-World Context:** True corporate sustainability auditing suffers from severe data fragmentation. Smaller/mid-cap firms lack dedicated sustainability reporting resources, resulting in sparse data fields, uneven disclosure frequencies, and heavily lagging reporting timelines.
+
+### 2. Provider Discrepancy & Alpha Attrition
+* **Limitation:** The Min-Max scaling layer inside this model assumes an explicit, objective linear relationship between operational parameters and absolute risk scores.
+* **Real-World Context:** Unlike standardized credit ratings (where S&P and Moody's correlate at ~99%), major ESG ratings agencies (MSCI vs. Sustainalytics) display structural score correlations of only ~50-60%. This divergence stems from varying internal data scraping methodologies, proprietary linguistic sentiment weights, and differing default tracking baselines.
+
+### 3. Structural Survivorship & Greenwashing Arbitrage
+* **Limitation:** The framework measures current controversy incident frequencies as a hard point-deduction floor.
+* **Real-World Context:** Highly capitalized companies often employ sophisticated public relations architectures to deliberately obfuscate supply chain or governance oversights, artificially dampening the sensitivity of external risk modifier flags.
 ## 📈 Summary & Asset Allocation Recommendations
 ## Quantitative Executive Summary
 ⚡ **Operational Sector Drag:** The Energy Sector faces structural performance suppression due to inherent carbon intensity tracking profiles. To achieve a composite "Leader" ranking, these assets require top-quartile governance and social score mitigations.
